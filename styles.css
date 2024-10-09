@@ -228,7 +228,7 @@ form button:hover {
 }
 .entities h1{
   font-size: var(--title-font-s);
-  margin-bottom: 10px ;
+  margin-bottom: 30px ;
 }
 select{
   font-family: montserrat;
