@@ -333,17 +333,18 @@ select:focus,select:active, select option:checked{
       font-size: 10px;
     }
     .entities{
-      flex-direction: c;
+      margin-top: 20px;
     }
     .entities .images{
       flex-direction: column;
-      padding: 20px;
+      padding: 13px;
     }
     .entities .images img {
       width: 60%;
       padding: 20px;
     }
     .entities h1{
+      margin-bottom: 0px;
       font-size: 20px;
     }
     .scholar .scholar-title h1{
