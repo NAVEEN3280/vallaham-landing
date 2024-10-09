@@ -81,6 +81,7 @@ font-weight: 700;
 font-size: 15px;
 width: 500px;
 margin-top: 0;
+
 }
 .scholar::before{
   content: "";
@@ -196,7 +197,7 @@ form button {
     font-size: 16px;
 }
 form label{
-  opacity: 0.5;
+  opacity: .5;
 }
 form button:hover {
     background-color: #fff; /* Darker green on hover */
@@ -221,9 +222,9 @@ form button:hover {
     flex-direction: row;
     width: 100%;
 }
-.entities .images img{
-    width: 10%;
-    object-fit: cover;
+.entities .images a img{
+    width: 50%;
+
 }
 .entities h1{
   font-size: var(--title-font-s);
@@ -254,7 +255,7 @@ select:focus,select:active, select option:checked{
     .about{
       margin-top: 180px;
     }
-    .entities .images img {
+    .entities .images a img {
       width: 30%;
     }
   }
@@ -282,9 +283,6 @@ select:focus,select:active, select option:checked{
     body::before{
       width: 100%;
     }
-    .logo img{
-      width: 13%;
-    }
     .form-container {
       width: 100%;
       background-color: rgba(74,33,69,0.7);
@@ -299,7 +297,7 @@ select:focus,select:active, select option:checked{
       font-size: 16px;
     }
     .about{
-      margin-top: 110px;
+      margin-top: 80px;
     }
     .about, .scholar-title, .creteria {
       font-size: 14px;
@@ -309,7 +307,7 @@ select:focus,select:active, select option:checked{
   
     .logo img{
       align-items: center;
-      width: 13%;
+      width: 15%;
     }
 
     .about{
@@ -323,13 +321,15 @@ select:focus,select:active, select option:checked{
       width: 100%;
       font-size: 10px;
     }
-    
+    .entities{
+      flex-direction: c;
+    }
     .entities .images{
       flex-direction: column;
       padding: 20px;
     }
     .entities .images img {
-      width: 50%;
+      width: 60%;
       padding: 20px;
     }
     .entities h1{
