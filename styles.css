@@ -314,7 +314,7 @@ select:focus,select:active, select option:checked{
       margin-top: 80px;
     }
     .form-container {
-      padding: 0;
+      padding: 5;
       width: 100%;
     }
     .form-container input{
