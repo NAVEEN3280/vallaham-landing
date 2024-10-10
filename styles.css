@@ -242,12 +242,45 @@ select{
   border-radius: 7px;
   
 }
-select:focus,select:active, select option:checked{
-  border-radius: 20px;
-}
+
 /* Large screens (Desktops) */
-@media only screen and (min-width: 1200px) {
-    /* No changes needed, the existing styles should work fine */
+@media all and (min-width:1024px) {
+    .about{
+      margin-top: 350px;
+    }
+    .logo img{
+      width: 15%;
+    }
+    .about p{
+      font-size: 20px;
+    }
+    .entities h1{
+      font-size: 30px;
+    }
+    .entities .images{
+      width: 80%;
+    }
+    .scholar p{
+      font-size: 20px;
+    }
+    .creteria h1{
+      font-size: 30px;
+    }
+    .creteria-items{
+      font-size: 20px;
+    }
+    form input{
+      font-size: 20px;
+    }
+    .form-container label{
+      font-size: 20px;
+    }
+    .form-container button{
+      font-size: 20px;
+    }
+    select{
+      font-size: 20px;
+    }
   }
   
   /* Medium screens (Laptops) */
@@ -286,6 +319,9 @@ select:focus,select:active, select option:checked{
     body::before{
       width: 100%;
     }
+    .logo img{
+      width: 35%;
+    }
     .form-container {
       width: 100%;
       background-color: rgba(74,33,69,0.7);
@@ -300,7 +336,10 @@ select:focus,select:active, select option:checked{
       font-size: 16px;
     }
     .about{
-      margin-top: 80px;
+      margin-top: 250px;
+    }
+    .about p{
+      text-align: start;
     }
     .about, .scholar-title, .creteria {
       font-size: 14px;
@@ -317,9 +356,12 @@ select:focus,select:active, select option:checked{
     .about{
       margin-top: 320px;
       
+      
     }
     .about p{
       font-size: 14px;
+      text-align: start;
+      
     }
     .form-container {
       margin-top: 30px;
