@@ -242,7 +242,18 @@ select{
   border-radius: 7px;
   
 }
+.tacbox {
+  display:flex;  
+  border: none;
+  background-color: transparent;
+  max-width: 800px;
+}
 
+.tacbox input {
+  height: 1.5em;
+  width: 1.5em;
+  vertical-align: middle;
+}
 /* Large screens (Desktops) */
 @media all and (min-width:1024px) {
     .about{
@@ -313,6 +324,7 @@ select{
   
     body{
       width: 100%;
+      background-image: url(img/boy.png);
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -337,7 +349,7 @@ select{
       font-size: 16px;
     }
     .about{
-      margin-top: 330px;
+      margin-top: 350px;
     }
     .about p{
       text-align: start;
@@ -345,9 +357,25 @@ select{
     .about, .scholar-title, .creteria {
       font-size: 14px;
     }
+    .tacbox {
+      display:flex;  
+      border: none;
+      background-color: transparent;
+      max-width: 800px;
+    }
+    
+    .tacbox input {
+      height: 1.5em;
+      width: 1.5em;
+      vertical-align: middle;
+    }
   }
   @media all and (max-width:480px){
-  
+    body{
+      background-image: url(img/boy.png);
+      background-position: center;
+      background-size: cover;
+    }
     .logo img{
       align-items: center;
       width: 55%;
@@ -355,7 +383,7 @@ select{
     }
 
     .about{
-      margin-top: 320px;
+      margin-top: 350px;
       
       
     }
@@ -414,6 +442,18 @@ select{
     .scholar .scholar-title p{
       font-size: 14px;
       width: 100%;
+    }
+    .tacbox {
+      display:flex;  
+      border: none;
+      background-color: transparent;
+      max-width: 800px;
+    }
+    
+    .tacbox input {
+      height: 1.5em;
+      width: 1.5em;
+      vertical-align: middle;
     }
     
   }
