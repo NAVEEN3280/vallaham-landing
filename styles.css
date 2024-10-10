@@ -325,6 +325,7 @@ select{
     .form-container {
       width: 100%;
       background-color: rgba(74,33,69,0.7);
+      margin-top: 30px;
     }
     .entities .images img {
       width: 20%;
